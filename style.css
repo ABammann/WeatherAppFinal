@@ -1,0 +1,72 @@
+body,
+html {
+  background: radial-gradient(
+    343px at 46.3% 47.5%,
+    rgb(242, 242, 242) 0%,
+    rgb(241, 241, 241) 72.9%
+  );
+}
+.container {
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
+  border-radius: 50px;
+  padding: 30px;
+  text-align: center;
+  margin-top: 100px;
+  box-shadow: 3px 3px 3px black;
+  max-width: 600px;
+}
+.title {
+  color: white;
+  font-family: "Prompt", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+}
+button {
+  border-radius: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 10px;
+  color: #757a79;
+}
+button:hover {
+  color: red;
+}
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  color: #fcff82;
+}
+.col-6,
+.col-4 {
+  font-size: 20px;
+  font-family: monospace;
+  color: #afc5ff;
+  text-transform: capitalize;
+}
+.currentTemperature {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 20px;
+  padding-bottom: 20px;
+  color: #fcff82;
+}
+img {
+  height: 80px;
+}
+.col {
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  color: #ff9c6d;
+}
+h5 {
+  font-size: 15px;
+  text-align: center;
+  color: black;
+}
+a {
+  color: grey;
+}
