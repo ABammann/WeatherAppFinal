@@ -17,7 +17,7 @@ html {
   text-align: center;
   margin-top: 100px;
   box-shadow: 3px 3px 3px black;
-  max-width: 600px;
+  max-width: 700px;
 }
 .title {
   color: white;
@@ -57,10 +57,13 @@ h2 {
 img {
   height: 80px;
 }
-.col {
+.col-2 {
   font-size: 20px;
   font-family: "Kanit", sans-serif;
   color: #ff9c6d;
+}
+.temperature-min {
+  opacity: 0.6;
 }
 h5 {
   font-size: 15px;
