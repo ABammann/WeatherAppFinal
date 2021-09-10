@@ -82,3 +82,31 @@ function displayWeatherCondition(response) {
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
+
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Fri", "Sat", "Sun", "Mon", "Tue"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `<div class="col-2">
+      <div class="weekday">Tue</div>
+      <img
+        src="http://openweathermap.org/img/wn/10d@2x.png"
+        alt=""
+        width="60"
+      />
+      <div class="temperature-forecast">
+        <span class="temperature-max-forecast">20°C</span>
+        <span class="temperature-min-forecast">15°C</span>
+      </div>
+    </div>`;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
+displayForecast();

@@ -1,10 +1,6 @@
 body,
 html {
-  background: radial-gradient(
-    343px at 46.3% 47.5%,
-    rgb(242, 242, 242) 0%,
-    rgb(241, 241, 241) 72.9%
-  );
+  background: #38598b;
 }
 .container {
   background: linear-gradient(
@@ -44,7 +40,7 @@ h2 {
 .col-4 {
   font-size: 20px;
   font-family: monospace;
-  color: #afc5ff;
+  color: #fd5959;
   text-transform: capitalize;
 }
 .currentTemperature {
@@ -57,12 +53,13 @@ h2 {
 img {
   height: 80px;
 }
-.col-2 {
+.weather-forecast {
   font-size: 20px;
   font-family: "Kanit", sans-serif;
   color: #ff9c6d;
+  align-items: center;
 }
-.temperature-min {
+.temperature-min-forecast {
   opacity: 0.6;
 }
 h5 {
