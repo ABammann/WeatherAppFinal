@@ -50,21 +50,24 @@ h2 {
   padding-bottom: 20px;
   color: #fcff82;
 }
-img {
-  height: 80px;
-}
-.weather-forecast {
+.WeatherForecast {
   font-size: 20px;
   font-family: "Kanit", sans-serif;
   color: #ff9c6d;
+  text-align: center;
 }
 .temperature-min-forecast {
   opacity: 0.6;
 }
+.col-2 {
+  flex-basis: 0;
+  max-width: 90%;
+  flex-grow: 1;
+}
 h5 {
   font-size: 15px;
   text-align: center;
-  color: black;
+  color: lightgreen;
 }
 a {
   color: grey;
